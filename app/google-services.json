@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269511903486",
+    "project_id": "back-parkslotapp",
+    "storage_bucket": "back-parkslotapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269511903486:android:07a41339fe2c7232e3bdaf",
+        "android_client_info": {
+          "package_name": "edu.unal.parkslotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269511903486-ari5sgc3ldgbr8gj22seketh1s0oosht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1jSAZFS2cDeTYihLXTE5MQCyS8ZdlHk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269511903486-ari5sgc3ldgbr8gj22seketh1s0oosht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
