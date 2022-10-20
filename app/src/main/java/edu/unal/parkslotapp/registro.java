@@ -58,7 +58,7 @@ public class registro extends AppCompatActivity {
                                 // Sign in success, update UI with the signed-in user's information
                                 Toast.makeText(getApplicationContext(), "Usuario creado con exito .", Toast.LENGTH_SHORT).show();
                                 FirebaseUser user = mAuth.getCurrentUser();
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), win_parking_lot_list.class);
                                 startActivity(intent);
                               //  updateUI(user);
                             } else {

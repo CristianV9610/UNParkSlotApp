@@ -60,8 +60,9 @@ public class MainActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
 
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(getApplicationContext(), " validado.",
-                                    Toast.LENGTH_SHORT).show();
+                           // Toast.makeText(getApplicationContext(), " Inicio valido.",Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(getApplicationContext(), win_parking_lot_list.class);
+                            startActivity(intent);
                             //updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
