@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:background="@drawable/round_back_darkgray_100">
 
@@ -96,8 +97,7 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         android:onClick="onloggClick"
-
-
+        android:minHeight="48dp"
         />
 
     </LinearLayout>
