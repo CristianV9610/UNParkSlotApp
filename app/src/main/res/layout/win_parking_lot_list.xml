@@ -38,6 +38,7 @@
                 android:clickable="true"
                 android:contentDescription="buttonCyT"
                 android:scaleType="centerInside"
+                android:onClick="Cyt"
                 android:src="@drawable/cyt_pic" />
 
             <TextView
@@ -137,7 +138,6 @@
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </FrameLayout>
-
 
     </LinearLayout>
 </RelativeLayout>

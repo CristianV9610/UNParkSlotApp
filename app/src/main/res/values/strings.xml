@@ -12,4 +12,7 @@
     <string name="textAulas">2. Aulas de Ingeniería</string>
     <string name="textDepartamentoBiologia">3. Departamento de Biologia</string>
     <string name="textSalidaCalle53Button">4. Salida Calle 53</string>
+    <string name="textEmptySpaces">Espacios disponibles:</string>
+    <string name="textSelectButton">Seleccionar</string>
+    <string name="textReleaseButton">Liberar</string>
 </resources>
