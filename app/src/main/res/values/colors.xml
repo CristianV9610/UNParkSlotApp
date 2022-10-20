@@ -11,4 +11,6 @@
     <color name="shadow">#4D808080</color>
     <color name="dark_gray">#333333</color>
     <color name="blue_button">#32599A</color>
+    <color name="parking_lot_background_color">#BCC5B8</color>
+    <color name="gray_white">#E8E7E7</color>
 </resources>

@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:orientation="vertical"
         android:gravity="center"
         android:background="@drawable/round_back_darkgray_100">
@@ -73,11 +74,11 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif-condensed"
+            android:minHeight="48dp"
+            android:onClick="onRegistroClick"
             android:text="@string/textLoginText"
             android:textColor="@color/white"
-            android:textSize="15sp"
-            android:onClick="onRegistroClick"
-            />
+            android:textSize="15sp" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -138,6 +138,5 @@
                 android:textStyle="bold" />
         </FrameLayout>
 
-
     </LinearLayout>
 </RelativeLayout>
