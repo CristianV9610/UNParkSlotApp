@@ -2,20 +2,31 @@ package edu.unal.parkslotapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import edu.unal.parkslotapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-    
-    private ActivityMainBinding binding;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        View view = binding.getRoot();
-        setContentView(view);
+        setContentView(R.layout.activity_main);
     }
+    public void onRegistroClick(View view) {
+        Intent intent = new Intent(this, registro.class);
+        startActivity(intent);
+
+    }
+
 }

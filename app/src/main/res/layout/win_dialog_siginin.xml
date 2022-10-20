@@ -54,19 +54,20 @@
         android:textColor="@color/black"
         android:textColorHint="@color/light_gray" />
 
-    <EditText
-        android:id="@+id/signinPassword"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/round_back_white_100"
-        android:hint="@string/textPasswordHint"
-        android:paddingStart="10dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/light_gray"
-        android:paddingEnd="10dp"/>
+        <EditText
+            android:id="@+id/signinPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/round_back_white_100"
+            android:hint="@string/textPasswordHint"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:password="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_gray" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -91,7 +92,11 @@
         android:fontFamily="sans-serif-condensed"
         android:text="@string/textSigninText"
         android:textColor="@color/white"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:onClick="onloggClick"
+
+
+        />
 
     </LinearLayout>
 </RelativeLayout>
