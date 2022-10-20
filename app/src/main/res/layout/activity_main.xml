@@ -26,14 +26,14 @@
             android:src="@drawable/logo" />
 
         <EditText
-            android:id="@+id/loginUser"
+            android:id="@+id/signinEmail"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/round_back_white_100"
-            android:hint="@string/textUserHint"
+            android:hint="@string/textEmailHint"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:textColor="@color/black"
@@ -65,7 +65,8 @@
             android:text="@string/textLoginButton"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="iniciarSesion"/>
 
         <TextView
             android:id="@+id/loginTextView"

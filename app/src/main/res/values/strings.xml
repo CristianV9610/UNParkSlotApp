@@ -5,6 +5,7 @@
     <string name="textLoginButton">Iniciar Sesion</string>
     <string name="textSigninButton">Registrarse</string>
     <string name="textUserHint">Usuario</string>
+    <string name="textPasswordHint1">Repetir Contraseña</string>
     <string name="textPasswordHint">Contraseña</string>
     <string name="textEmailHint">Email</string>
     <string name="textCyTButton">1. CyT</string>

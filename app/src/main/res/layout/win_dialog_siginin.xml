@@ -9,61 +9,61 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_back_darkgray_100"
-        android:layout_margin="20dp"
+        android:orientation="vertical"
         android:gravity="center"
-        android:orientation="vertical">
+        android:background="@drawable/round_back_darkgray_100">
 
-        <ImageView
-            android:id="@+id/signinImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="60dp"
-            android:clickable="true"
-            android:contentDescription="ImageSignIn"
-            android:src="@drawable/anonuser" />
+    <ImageView
+        android:id="@+id/signinImageView"
+        android:contentDescription="ImageSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:clickable="true"
+        android:src="@drawable/anonuser" />
+
+    <EditText
+        android:id="@+id/signinEmail"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/round_back_white_100"
+        android:hint="@string/textEmailHint"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_gray"
+        android:paddingEnd="10dp"/>
+
+    <EditText
+        android:id="@+id/signinPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/round_back_white_100"
+        android:hint="@string/textPasswordHint"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:password="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_gray" />
 
         <EditText
-            android:id="@+id/signinEmail"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="40dp"
-            android:background="@drawable/round_back_white_100"
-            android:hint="@string/textEmailHint"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/light_gray" />
-
-        <EditText
-            android:id="@+id/signinUser"
+            android:id="@+id/signinPassword1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/round_back_white_100"
-            android:hint="@string/textUserHint"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/light_gray" />
-
-        <EditText
-            android:id="@+id/signinPassword"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="40dp"
-            android:background="@drawable/round_back_white_100"
-            android:hint="@string/textPasswordHint"
+            android:hint="@string/textPasswordHint1"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:password="true"
@@ -79,26 +79,26 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/round_back_blue_100"
+            android:onClick="registroUsuario"
             android:text="@string/textSigninButton"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/signinTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="sans-serif-condensed"
-            android:onClick="onloggClick"
-            android:minHeight="48dp"
-            android:text="@string/textSigninText"
-            android:textColor="@color/white"
-            android:textSize="15sp"
+    <TextView
+        android:id="@+id/signinTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/textSigninText"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:onClick="onloggClick"
 
 
-            />
+        />
 
     </LinearLayout>
 </RelativeLayout>
