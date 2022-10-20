@@ -8,4 +8,8 @@
     <string name="textPasswordHint1">Repetir Contraseña</string>
     <string name="textPasswordHint">Contraseña</string>
     <string name="textEmailHint">Email</string>
+    <string name="textCyTButton">1. CyT</string>
+    <string name="textAulas">2. Aulas de Ingeniería</string>
+    <string name="textDepartamentoBiologia">3. Departamento de Biologia</string>
+    <string name="textSalidaCalle53Button">4. Salida Calle 53</string>
 </resources>
