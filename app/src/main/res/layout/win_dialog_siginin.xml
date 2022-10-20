@@ -41,28 +41,29 @@
         android:paddingEnd="10dp"/>
 
     <EditText
-        android:id="@+id/signinUser"
+        android:id="@+id/signinPassword"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:background="@drawable/round_back_white_100"
-        android:hint="@string/textUserHint"
+        android:hint="@string/textPasswordHint"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
+        android:password="true"
         android:textColor="@color/black"
         android:textColorHint="@color/light_gray" />
 
         <EditText
-            android:id="@+id/signinPassword"
+            android:id="@+id/signinPassword1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/round_back_white_100"
-            android:hint="@string/textPasswordHint"
+            android:hint="@string/textPasswordHint1"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:password="true"
@@ -70,18 +71,19 @@
             android:textColorHint="@color/light_gray" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/round_back_blue_100"
-        android:text="@string/textSigninButton"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:id="@+id/singinButton"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/singinButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_blue_100"
+            android:onClick="registroUsuario"
+            android:text="@string/textSigninButton"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     <TextView
         android:id="@+id/signinTextView"
