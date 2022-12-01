@@ -24,9 +24,6 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-
     private EditText signinEmail;
     private EditText signinPassword;
     private FirebaseAuth mAuth;
