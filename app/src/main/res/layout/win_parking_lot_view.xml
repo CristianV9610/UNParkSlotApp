@@ -7,7 +7,7 @@
     >
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -62,6 +62,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/parkinglot_pic"
             android:orientation="vertical">
 
@@ -112,7 +116,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp">
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -126,12 +130,11 @@
                     android:id="@+id/Slot6"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="40dp"
                     android:layout_toRightOf="@+id/Slot5"
                     android:background="@drawable/round_back_transparent_100"
                     android:text="Slot 6" />
             </RelativeLayout>
-
 
         </LinearLayout>
 
