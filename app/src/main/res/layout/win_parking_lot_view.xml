@@ -139,32 +139,6 @@
         </LinearLayout>
 
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="40dp"
-            android:gravity="center_horizontal">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/buttonSelect"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:background="@drawable/round_back_outline_100"
-                android:text="@string/textSelectButton" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/buttonRelease"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
-                android:layout_toRightOf="@+id/buttonSelect"
-                android:background="@drawable/round_back_outline_100"
-                android:text="@string/textReleaseButton" />
-
-        </RelativeLayout>
-
-
     </LinearLayout>
 
 </RelativeLayout>
