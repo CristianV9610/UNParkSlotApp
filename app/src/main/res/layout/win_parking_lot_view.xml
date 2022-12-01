@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
@@ -23,7 +23,7 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="60dp"
             android:clickable="true"
             android:contentDescription="ImageSignIn"
@@ -57,21 +57,84 @@
                 android:text="0"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
-
-
         </RelativeLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/parkinglot_pic"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/parkingView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="40dp"
-            android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-            android:src="@drawable/parkinglot_pic" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot2"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/Slot1"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot3"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 3" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/Slot3"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot5"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 5" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/Slot6"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/Slot5"
+                    android:background="@drawable/round_back_transparent_100"
+                    android:text="Slot 6" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
 
         <RelativeLayout
             android:layout_width="wrap_content"
